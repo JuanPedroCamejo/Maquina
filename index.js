@@ -1,0 +1,62 @@
+/* let nombre = "Nataly";
+let edad = 34   ;
+let saludo = nombre + " " + "tienes" + " " + edad + " " + "años de edad";
+
+console.log(nombre + " " + "tienes" + " " + edad); */
+
+/* let nombre = prompt ("Ingresa el Nombre");
+let edad = prompt ("Ingresa tu edad");
+
+let mensaje = (nombre + " " + "tienes " + " " + edad + " " + " años de edad");
+
+alert (mensaje); */
+
+/* let entrada = prompt ("Ingresa una letra");
+let salida = ( entrada + " Ingresada");
+
+alert (salida); */
+
+/* let numberOne = prompt('Ingrese el primer numero');
+let numberTwo = prompt('Ingresa el segundo numero');
+let suma = Number(numberOne) + Number(numberTwo);
+alert (suma); */
+
+/* let edad = Number(prompt("Por fabor ingresa tu edad"));
+
+if ( edad < 15){
+    alert ("Lo siento no puedes ingresar");
+}else if ( edad < 18){
+    alert ("Puedes ingresar acompañado con un adulto");
+} else {
+    alert ("Felicidades puedes ingresar");
+} */
+
+/* let Nombre = (prompt("Ingrese su nombre"));
+
+if (Nombre !="") {
+    alert (`Hola ${Nombre}`);
+
+} */
+/* 
+for (let i = 0; i < 100; i++){
+    console.log(i);
+}
+
+ */
+/* 
+for (let turno = 1; turno <= 10; turno++){
+    let nombre = prompt("Ingrese su nombre para signar un turno");
+    let mensaje = `Turno #${turno} Nombre: ${nombre}`;
+{
+    alert (mensaje);
+}
+    
+} */
+
+let numero = parseInt(prompt("Ingrese un numero porfi"));
+
+if(numero % 2 === 0){
+    alert("Este es un numero par ok");
+}else{
+    alert("Este numero no es par loco");
+}
