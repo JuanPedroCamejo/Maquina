@@ -53,10 +53,26 @@ for (let turno = 1; turno <= 10; turno++){
     
 } */
 
-let numero = parseInt(prompt("Ingrese un numero porfi"));
+/* let numero = parseInt(prompt("Ingrese un numero porfi"));
 
 if(numero % 2 === 0){
     alert("Este es un numero par ok");
 }else{
     alert("Este numero no es par loco");
+} */
+
+/* function saludar() {
+    let nombre = prompt("Ingresa tu nombre");
+    let mensaje = `Hola ${nombre}`;
+    alert (mensaje);
 }
+
+saludar(); */
+
+function saludar(){
+    let nombre = prompt("Ingrese su nombre");
+    let mensaje = `Hola ${nombre}`;
+    alert (mensaje);
+}
+
+saludar();
