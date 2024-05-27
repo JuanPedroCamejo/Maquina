@@ -69,10 +69,34 @@ if(numero % 2 === 0){
 
 saludar(); */
 
-function saludar(){
+/*function saludar(){
     let nombre = prompt("Ingrese su nombre");
     let mensaje = `Hola ${nombre}`;
     alert (mensaje);
 }
 
 saludar();
+
+const personal = {primerNombre: "Juan", segundoNombre: "Pedro", primerApellido: "Camejo", segundoApellido: "Lira", edad: "38", fechaNac: "09/01/1986" };
+
+console.log(personal["segundoNombre"]);*/
+
+function Usuario (info){
+    this.nombre = info.nombre;
+    this.edad = info.edad;
+    this.direccion = info.direccion;
+    this.color = info.color;
+    this.altura = info.altura;
+}
+
+const usuario1 = new Usuario (
+    {
+    nombre: "Carlos",
+    edad: 35,
+    color: "blanco",
+    direccion: "Av",
+    altura: 15
+    }
+)
+
+console.log (usuario1);
